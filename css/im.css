@@ -1,0 +1,73 @@
+
+.nathan {
+  background:url(../images/miam.png)  no-repeat,linear-gradient(to top, rgb(248, 162, 0), rgba(255, 255, 255, 0.37)) no-repeat,url(../images/fleur.png)  no-repeat,url(../images/za1.png)  no-repeat ; 
+  background-attachment: fixed;
+  background-position: bottom left, left, center, right;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+body{
+    background: black;
+}
+.error{
+    color: red;
+}
+
+.than{
+    text-decoration: underline;
+  text-underline-offset: 1rem;
+  color: #f4be0c;
+}
+
+.footer{
+   background-color: var(--white);
+}
+
+.footer .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+   gap:2.5rem;
+   align-items: flex-start;
+}
+
+.footer .box-container .box h3{
+   text-transform: uppercase;
+   color:var(--black);
+   margin-bottom: 2rem;
+   font-size: 2rem;
+}
+
+.footer .box-container .box a,
+.footer .box-container .box p{
+   display: block;
+   padding:1.3rem 0;
+   font-size: 1.6rem;
+   color:var(--light-color);
+}
+
+.footer .box-container .box a i,
+.footer .box-container .box p i{
+   color:var(--green);
+   padding-right: 1rem;
+}
+
+.footer .box-container .box a:hover{
+   text-decoration: underline;
+   color:var(--green);
+}
+
+.footer .credit{
+   margin-top: 2rem;
+   padding: 2rem 1.5rem;
+   padding-bottom: 2.5rem;
+   line-height: 1.5;
+   border-top: var(--border);
+   text-align: center;
+   font-size: 2rem;
+   color:var(--black);
+}
+
+.footer .credit span{
+   color:var(--green);
+}
+
